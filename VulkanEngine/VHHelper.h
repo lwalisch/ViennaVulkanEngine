@@ -292,5 +292,3 @@ namespace vh {
 
 
 
-#include "nuklear-glfw-vulkan.h"
-

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vienna_vulkan_engine_cmake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lukas/Desktop/ViennaVulkanEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEngine.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEngine.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEntity.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEntity.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEventListener.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEventListener.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEventListenerGLFW.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEEventListenerGLFW.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEInclude.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEMaterial.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEMaterial.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VENamedClass.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VENamedClass.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VERenderer.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VERenderer.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VERendererForward.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VERendererForward.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESceneManager.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESceneManager.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrender.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrender.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_C1.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_C1.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Cubemap.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Cubemap.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Cubemap2.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Cubemap2.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_D.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_D.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_DN.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_DN.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Shadow.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Shadow.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Skyplane.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VESubrenderFW_Skyplane.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEWindow.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEWindow.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEWindowGLFW.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VEWindowGLFW.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHBuffer.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHCommand.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHDebug.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHDevice.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHFile.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHHelper.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHMemory.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHRender.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/VHSwapchain.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/VulkanEngine/vk_mem_alloc.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/main.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/lukas/Desktop/ViennaVulkanEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

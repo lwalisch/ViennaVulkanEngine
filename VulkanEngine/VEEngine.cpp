@@ -175,7 +175,7 @@ namespace ve {
 	*
 	* \brief Remove an event listener.
 	*
-	* The event listener will be removed fróm the list but not destroyed.
+	* The event listener will be removed frï¿½m the list but not destroyed.
 	*
 	* \param[in] name The name of the event listener to be removed.
 	*
@@ -361,7 +361,6 @@ namespace ve {
 			deleteEventListener( m_eventListener[0]->getName() );
 		}
 
-		registerEventListener(new VEEventListenerNuklearError(message) );		
 	}
 
 
