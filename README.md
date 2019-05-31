@@ -1,17 +1,17 @@
 # The Vienna Vulkan Engine (VVE)
 
-##About this fork
+## About this fork
 
 This is a port of the Vienna Vulkan Engine to other environments that don't use Visual Studio. I run this version on Ubuntu 18.04. It uses cmake and therefore can be used for developent with IDEs like CLion and Visual Studio Code.
 
-##Changelog
+## Changelog
 
 - I had to remove Nuklear for this version of the project for now to keep it working
 
-##TODO
+## TODO
 - Make a documentation on how to get the project running on linux. (Short version: Check CMakeLists.txt for dependencies which should be available on the system, and install missing dependencies)
 
-##Original Description
+## Original Description
 
 The Vienna Vulkan Engine (VVVE) is a Vulkan based render engine meant for learning and teaching the Vulkan API. It is open source under the MIT license. The VVE has been started as basis for game based courses at the Faculty of Computer Science of the University of Vienna, held by Prof. Helmut Hlavacs:
 
